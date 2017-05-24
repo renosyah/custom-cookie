@@ -15,6 +15,7 @@ ini yaitu
 
 * menetapkan cookie
 
+
 	set_cookie(name_cookie string,value_cookie string,res http.ResponseWriters)
 
 contoh : 
@@ -24,6 +25,7 @@ contoh :
 
 * memanggil cookie
 
+
 	get_cookie(name_cookie string,req *http.Request) string
 
 contoh : 
@@ -32,6 +34,7 @@ contoh :
 
 
 * menghapus cookie
+
 
 	clear_cookie(name_cookie string,res http.ResponseWriters)
 
