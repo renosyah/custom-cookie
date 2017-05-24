@@ -16,6 +16,7 @@ ini yaitu
 * menetapkan cookie
 
 	set_cookie(name_cookie string,value_cookie string,res http.ResponseWriters)
+
 contoh : 
 	
 	set_cookie("cookie_1","akses",res)
